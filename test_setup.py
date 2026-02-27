@@ -51,7 +51,7 @@ def test_basic_setup():
     else:
         print("Supabase key needs to be set in .env")
 
-    print("\nBasic setup complete!")
+    print("\n Basic setup complete!")
     return True
 
 if __name__ == "__main__":
