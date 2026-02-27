@@ -5,6 +5,9 @@ from src.models.candidate import PipelineRun, CandidateProtein, EpitopeResult
 import json
 from datetime import datetime
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
